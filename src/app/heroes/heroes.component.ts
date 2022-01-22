@@ -7,11 +7,7 @@ import { HEROES } from '../mock-heroes';
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.scss'],
 })
-export class HeroesComponent {
-  hero: Hero = {
-    id: 1,
-    name: 'Homem-Aranha',
-  };
+export class HeroesComponent { 
   heroes = HEROES;
 
   selectedHero?: Hero;
